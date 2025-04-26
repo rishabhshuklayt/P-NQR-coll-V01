@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import MapsPage from './pages/MapsPage';
+import NotFoundPage from './pages/errors/NotFoundPage';
 
 // Create router with all application routes
 const router = createBrowserRouter([
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: '/maps',
     element: <MapsPage />,
+  },
+  {
+    path: '*',
+    element: <NotFoundPage />,
   }
 ]);
 

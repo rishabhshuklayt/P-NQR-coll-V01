@@ -3,7 +3,7 @@ import BottomNavBar from '../components/BottomNavBar';
 import MapSearchBar from '../components/MapsComponent/MapSearchBar';
 import CategoryCircles from '../components/DynamicComponents/CategoryComponents/CategoryCircles';
 import SearchBar from '../components/SearchBar';
-
+import FeaturedImage from '../components/FeaturedImage';
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -25,6 +25,9 @@ const HomePage = () => {
           <button className="w-full px-6 py-3 bg-yellow-500 text-white rounded-xl hover:bg-yellow-600 transition">Cart</button>
           <button className="w-full px-6 py-3 bg-red-600 text-white rounded-xl hover:bg-red-700 transition">Admin Login</button>
           <button className="w-full px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition">Contact</button> */}
+        </div>
+        <div className='mt-2'>
+          <FeaturedImage />
         </div>
       </div>
       
