@@ -1,9 +1,10 @@
+import { Search } from 'lucide-react';
 import React from 'react';
 
 function MapSearchBar() {
   return (
     <div className="flex items-center justify-center ">
-        
+        <Search className='absolute text-gray-500 left-2' />
       <input
         type="text"
         placeholder="Search for a location"
