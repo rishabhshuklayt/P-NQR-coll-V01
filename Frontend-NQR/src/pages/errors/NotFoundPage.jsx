@@ -34,7 +34,7 @@ const NotFoundPage = () => {
         style={{ filter: `blur(${blurAmount}px)` }}
       >
         <img 
-          src="/images/attitude-dp.jpg" 
+          src="https://i.pinimg.com/736x/01/49/66/014966d549c82b06fc9433389ec08e90.jpg" 
           alt="Encrypted attitude" 
           className="w-full h-full object-cover"
         />
