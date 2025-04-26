@@ -2,7 +2,7 @@ import { ArrowLeft, ShoppingCart } from 'lucide-react';
 
 const TopBar = ({ restaurantName = "Restaurant Name", tagline = "Delicious food delivered" }) => {
   return (
-    <div className="flex items-center justify-between p-3 bg-white shadow-sm">
+    <div className=" fixed left-0 right-0 flex items-center justify-between p-3 bg-white  w-full h-12 top-0 ">
       <button className="p-1">
         <ArrowLeft className="h-5 w-5 text-gray-700" />
       </button>
