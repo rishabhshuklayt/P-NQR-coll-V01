@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import BottomNavBar from './components/BottomNavBar'
+import TopBar from './components/DynamicComponents/TopBar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <TopBar restaurantName="Taj Mahal" tagline="Authentic Indian Cuisine" />
       
-  <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 space-y-4 pb-16">
+  <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 space-y-4 pb-16 pt-12">
       <h1 className="text-3xl font-bold mb-6">Welcome</h1>
       
       <button className="px-6 py-3 bg-blue-600 text-white rounded-2xl hover:bg-blue-700 transition">Home</button>
