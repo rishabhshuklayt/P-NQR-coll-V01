@@ -4,6 +4,8 @@ import MapSearchBar from '../components/MapsComponent/MapSearchBar';
 import CategoryCircles from '../components/DynamicComponents/CategoryComponents/CategoryCircles';
 import SearchBar from '../components/SearchBar';
 import FeaturedImage from '../components/FeaturedImage';
+import FoodItemCard from '../components/Cards/FoodItemCard';
+import ModernFoodCard from '../components/Cards/ModernFoodCard';
 const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -28,6 +30,14 @@ const HomePage = () => {
         </div>
         <div className='mt-2'>
           <FeaturedImage />
+        </div>
+        <div className='mt-2'>
+          <FoodItemCard />
+          <FoodItemCard />
+          <FoodItemCard />
+          <FoodItemCard />
+          <FoodItemCard />
+          
         </div>
       </div>
       
